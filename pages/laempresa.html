@@ -1,42 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La empresa - Neumaticos Leverratto</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../style/style.css">
-</head>
-
-<body>
-    <!--Header-->
-    <header>
-        <a href="index.html"> <img class="logo" src="../img/logo.png" alt="logo"></a>
-        <nav>
-            <ul class="clase1 clase2 recursotxt">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/laempresa.html">La empresa</a></li>
-                <li><a href="../pages/catalogo.html">Catalogo</a></li>
-                <li><a href="../pages/promociones.html">Promociones</a></li>
-                <li><a href="../pages/tips.html">Tips</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>La empresa - Neumaticos Leverratto</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../style/bootstrap.min.css">
+        <link rel="stylesheet" href="../style/bootstrap.css">
+        <link rel="stylesheet" href="../style/style.css">
+    </head>
+    
+    <body>
+        <!--Header-->
+        <header>
+            <nav class="navbar navbar-expand-lg" style="background-color: rgb(56, 129, 255);">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active clase2" aria-current="page"href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link clase2" href="../pages/laempresa.html">La empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link clase2" href="../pages/catalogo.html">Catalogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link clase2" href="../pages/promociones.html">Promociones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link clase2" href="../pages/tips.html">Tips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link clase2" href="../pages/contacto.html">Contacto</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </header>
     <main>
-    <section class="parent3">
-        <p class="clase1 clase2 center4 div7"> Misión: Crear un ambiente de trabajo que mantenga y desarrolle personal de primera. Mejorar la relación con el cliente y la satisfacción del mismo, a través de la calidad, entrega rápida y reducción de costos en nuestros productos. Adoptar una cultura de mejoramiento continúo para asegurar un crecimiento rentable</p>
-        <Img class="div8" src="../img/mision.jpg" alt="mision"></Img>
+    <section class="row gap-4 p-4">
+        <p class="clase1 clase2 center4 col-5"> Misión: Crear un ambiente de trabajo que mantenga y desarrolle personal de primera. Mejorar la relación con el cliente y la satisfacción del mismo, a través de la calidad, entrega rápida y reducción de costos en nuestros productos. Adoptar una cultura de mejoramiento continúo para asegurar un crecimiento rentable</p>
+        <Img class="col-6" src="../img/mision.jpg" alt="mision"></Img>
     </section>
-    <section class="parent3">
-        <img class="div8" src="../img/vision.png" alt="vision"></img>
-        <p class="clase1 clase2 div7">Vision: Convertirnos en el distribuidor de llantas más confiable de la región Andina, ofreciendo los mejores productos y servicios a través del conocimiento y entendimiento de los requerimientos y necesidades del cliente</p>
-        <p class="clase1 div9">Directorio de Neumaticos Leverratto</p>
+    <section class="row gap-4 p-4">
+        <img  class="col-6" src="../img/vision.png" alt="vision"></img>
+        <p class="clase1 clase2 center4 col-5">Vision: Convertirnos en el distribuidor de llantas más confiable de la región Andina, ofreciendo los mejores productos y servicios a través del conocimiento y entendimiento de los requerimientos y necesidades del cliente</p>
+        <p class="clase1 clase2 center4 col-12">Directorio de Neumaticos Leverratto</p>
     </section>
     </main>
     <!--Footer-->
@@ -50,5 +71,6 @@
             <a href="https://www.youtube.com/watch?v=iik25wqIuFo"><img src="../img/youtube.png" alt="youtube"></a>
         </div>
     </footer>
+    <script src="../js/bootstrap.js"></script>
 </body>
 </html>

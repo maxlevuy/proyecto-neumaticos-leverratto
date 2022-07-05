@@ -1,60 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - Neumaticos Leverratto</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../style/style.css">
-</head>
-
-<body>
-    <!--Header-->
-    <header>
-        <a href="index.html"> <img class="logo" src="../img/logo.png" alt="logo"></a>
-        <nav>
-            <ul class="clase1 clase2 recursotxt">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/laempresa.html">La empresa</a></li>
-                <li><a href="../pages/catalogo.html">Catalogo</a></li>
-                <li><a href="../pages/promociones.html">Promociones</a></li>
-                <li><a href="../pages/tips.html">Tips</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main class="contacto">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto - Neumaticos Leverratto</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../style/bootstrap.min.css">
+        <link rel="stylesheet" href="../style/bootstrap.css">
+        <link rel="stylesheet" href="../style/style.css">
+    </head>
+    
+    <body>
+        <!--Header-->
+        <header>
+            <nav class="navbar navbar-expand-lg" style="background-color: rgb(56, 129, 255);">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active clase2" aria-current="page"href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link clase2" href="../pages/laempresa.html">La empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link clase2" href="../pages/catalogo.html">Catalogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link clase2" href="../pages/promociones.html">Promociones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link clase2" href="../pages/tips.html">Tips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link clase2" href="../pages/contacto.html">Contacto</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </header>
         <!--Formulario-->
-        <h2 class="clase3 con1 recursotxt2">Comuniquese con nosotros</h2>
-        <form class="con2">
-            <label for="campo-nombre">
-                <p class="clase3">Nombre:</p>
-            </label>
-            <input type="text" id="campo-nombre" placeholder="ej. Pablo Perez" required>
-
-            <label for="email">
-                <p class="clase3">Correo electronico:</p>
-            </label>
-            <input type="email" id="email" placeholder="ej. pabloperez@gmail.com" required>
-
-            <label for="tel">
-                <p class="clase3">Telefono:</p>
-            </label>
-            <input type="tel" id="tel" placeholder="ej. 09XXXXXXX" required>
-
-            <div>
-                <p class="clase3">Mensaje</p>
-                <Textarea></Textarea>
+    <main>
+        <form action="">   
+            <div class="mb-3">
+                <label for="campo-nombre" class="p-2 form-label clase3 fw-bold recursotxt3">Nombre</label>
+                <input type="text" class="m-2 form-control" id="campo-nombre" required  placeholder="Ej. Pablo Perez">
             </div>
-            <input type="submit" value="Enviar consulta">
-            <input type="reset" value="Borrar formulario">
-        </form>
+            <div class="mb-3">
+                <label for="campo-nombre" class="p-2 form-label clase3 fw-bold recursotxt3">Dirección de correo</label>
+                <input type="email" class="m-2 form-control" id="campo-correo" required  placeholder="pabloperez@gmail.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="p-2 form-label clase3 fw-bold recursotxt3">Escriba su mensaje aqui</label>
+                <textarea class="m-2 form-control" id="campo-texto" required rows="11"></textarea>
+            </div>
+            <div>
+                <button type="submit" class="m-2 btn btn-primary boton">Enviar</button>
+            </div>    
+        </form>          
     </main>
     <!--Footer-->
     <footer>
@@ -67,4 +80,6 @@
             <a href="https://www.youtube.com/watch?v=iik25wqIuFo"><img src="../img/youtube.png" alt="youtube"></a>
         </div>
     </footer>
+    <script src="../js/bootstrap.js"></script>
+    </body>
 </html>
