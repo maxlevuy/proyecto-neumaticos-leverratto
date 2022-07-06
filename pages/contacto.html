@@ -20,14 +20,14 @@
         <header>
             <nav class="navbar navbar-expand-lg" style="background-color: rgb(56, 129, 255);">
                 <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="../index.html"><img class="logo btn btn-outline-light btn-floating" src="../img/logo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active clase2" aria-current="page"href="../index.html">Inicio</a>
+                        <a class="nav-link clase2" aria-current="page"href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link clase2" href="../pages/laempresa.html">La empresa</a>
@@ -51,18 +51,18 @@
         </header>
         <!--Formulario-->
     <main>
-        <form action="">   
+        <form>   
             <div class="mb-3">
-                <label for="campo-nombre" class="p-2 form-label clase3 fw-bold recursotxt3">Nombre</label>
+                <label for="campo-nombre" class="p-2 m-2 form-label clase3 fw-bold recursotxt3">Nombre</label>
                 <input type="text" class="m-2 form-control" id="campo-nombre" required  placeholder="Ej. Pablo Perez">
             </div>
             <div class="mb-3">
-                <label for="campo-nombre" class="p-2 form-label clase3 fw-bold recursotxt3">Dirección de correo</label>
+                <label for="campo-email" class="p-2 form-label clase3 fw-bold recursotxt3">Dirección de correo</label>
                 <input type="email" class="m-2 form-control" id="campo-correo" required  placeholder="pabloperez@gmail.com">
             </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="p-2 form-label clase3 fw-bold recursotxt3">Escriba su mensaje aqui</label>
-                <textarea class="m-2 form-control" id="campo-texto" required rows="11"></textarea>
+            <div class="mb-4">
+                <label for="campo-texto" class="p-2 form-label clase3 fw-bold recursotxt3">Escriba su mensaje aqui</label>
+                <textarea class="m-2 form-control" id="campo-texto" required rows="11g"></textarea>
             </div>
             <div>
                 <button type="submit" class="m-2 btn btn-primary boton">Enviar</button>
@@ -70,14 +70,17 @@
         </form>          
     </main>
     <!--Footer-->
-    <footer>
-        <img class="center"src="../img/logo.png">
-        <p class="center4 clase2 recursotxt">© 2022 Neumaticos Leverratto</p>
-        <div class="center2">
-            <a href="https://www.facebook.com/Neumaticos-Leverratto-821068844747025/"><img src="../img/face.png" alt="facebook"></a>
-            <a href="https://twitter.com/"><img src="../img/twitter.png" alt="twitter"></a>
-            <a href="https://www.instagram.com/neumaticosleverratto/"><img src="../img/insta.png" alt="instagram"></a>
-            <a href="https://www.youtube.com/watch?v=iik25wqIuFo"><img src="../img/youtube.png" alt="youtube"></a>
+    <footer class="bg-dark text-center text-white">
+        <div class="p-3 pb-1" style="background-color: rgba(0, 0, 0, 0.748);">
+            <section class="mb-4">
+                <img class="center pb-2"src="../img/logo.png">
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/Neumaticos-Leverratto-821068844747025/" role="button"><img src="../img/face.png" alt="facebook"></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/" role="button"><img src="../img/twitter.png" alt="twitter"></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/neumaticosleverratto/" role="button"><img src="../img/insta.png" alt="instagram"></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/watch?v=iik25wqIuFo" role="button"><img src="../img/youtube.png" alt="youtube"></a>
+            </section>
+        </div>
+        <div class="text-center p-2 clase2 quote" style="background-color: rgba(0, 0, 0, 0.748);">© 2022 Neumáticos Leverratto
         </div>
     </footer>
     <script src="../js/bootstrap.js"></script>
