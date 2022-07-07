@@ -1,0 +1,22 @@
+{
+  "name": "coderhouse",
+  "version": "1.0.0",
+  "description": "sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxlevuy/proyecto-neumaticos-leverratto.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "maximiliano-leverratto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxlevuy/proyecto-neumaticos-leverratto/issues"
+  },
+  "homepage": "https://github.com/maxlevuy/proyecto-neumaticos-leverratto#readme"
+}
