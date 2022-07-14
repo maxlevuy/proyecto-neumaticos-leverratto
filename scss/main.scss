@@ -170,6 +170,18 @@ img {
     background-color: #333;
 }
 
+/*-----Variables-----*/
+$miFont:comic;
+$miColor: blue;
+$miFontSize: 15px;
+
+.clase5 {
+    font-family: $miFont;
+    font-size: $miFontSize;
+    color: $miColor;
+}
+
+
 /*-----1024px-----*/
 @media (min-width: 1024px) {
     header {
