@@ -1,3 +1,10 @@
+@import "utilidades/variables";
+
+@import "base/reset";
+
+@import "componentes/botones";
+@import "componentes/tarjetas";
+
 .botonlogo {
     padding: 1px;
     border: rgb(21, 51, 151);
@@ -171,9 +178,6 @@ img {
 }
 
 /*-----Variables-----*/
-$miFont:comic;
-$miColor: blue;
-$miFontSize: 15px;
 
 .clase5 {
     font-family: $miFont;
@@ -268,5 +272,7 @@ $miFontSize: 15px;
         font-size: 1.6rem;
     }
 }
+
+
 
 /*# sourceMappingURL=style.css.map */
