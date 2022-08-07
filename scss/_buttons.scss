@@ -1,0 +1,15 @@
+.botonfoot {
+    padding: 1px;
+    border:rgb(255, 255, 255);
+    border-style: groove;
+
+    &:hover {
+        background-color: aliceblue;
+        color: rgb(21, 51, 151);
+        border-style:groove;
+    }
+}
+
+.boton {
+    background-color: #333;
+}

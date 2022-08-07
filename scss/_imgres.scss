@@ -1,0 +1,20 @@
+.logo {
+    width: 250px;
+    height: 100px;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+}
+
+.zoomin:hover {
+    transform: scale(0.95);
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+}
+
+.imgbor {
+    border-radius:10%;
+}

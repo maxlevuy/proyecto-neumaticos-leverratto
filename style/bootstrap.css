@@ -2485,7 +2485,7 @@ textarea.form-control-lg {
   -moz-appearance: none;
   appearance: none;
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  accent-color: exact;
   print-color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
@@ -3306,7 +3306,6 @@ textarea.form-control-lg {
 
 .btn-outline-light {
   --bs-btn-color: #f8f9fa;
-  --bs-btn-border-color: #f8f9fa;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #f8f9fa;
   --bs-btn-hover-border-color: #f8f9fa;
@@ -3316,7 +3315,7 @@ textarea.form-control-lg {
   --bs-btn-active-border-color: #f8f9fa;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #f8f9fa;
-  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-bg:transparent;
   --bs-gradient: none;
 }
 
@@ -4378,7 +4377,7 @@ textarea.form-control-lg {
   --bs-card-cap-color: ;
   --bs-card-height: ;
   --bs-card-color: ;
-  --bs-card-bg: #fff;
+  --bs-card-bg: rgb(221, 221, 221);
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
   position: relative;
